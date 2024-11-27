@@ -217,7 +217,6 @@ footer{
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
-    border-radius: 10px;
     padding: 20px;
     background-color: #d1432a8a;
     bottom: 3rem;
@@ -230,20 +229,20 @@ footer{
   } 
 
 .caro_img1{
-    background-image: url("src/photo-1532043956135-d0e0573c54e5.avif");
+    background-image: url("src/elongated1.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
   }
   .caro_img2{
-    background-image: url("src/photo-1633781080259-f55bcdcfd37a.avif");
+    background-image: url("src/elongated2.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;   
 }
   
   .caro_img3{
-    background-image: url("src/photo-1664115971126-01d762da68b5.avif");
+    background-image: url("src/elongated4.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
