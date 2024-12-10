@@ -151,6 +151,10 @@ p {
     color: #ffffff;
   }
 
+  a {
+    color: rgb(255 82 49) !important;
+    text-decoration: underline;
+}
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
