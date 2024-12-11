@@ -168,6 +168,9 @@ body {
 
 main {
   display: block;
+  position: relative;
+  z-index: 0; 
+  padding-top: 100px; 
 }
 
 footer{
@@ -179,6 +182,8 @@ footer{
 
 .header_area {
     height:150px;
+    position: relative;
+    z-index: 100;
 }
 
 /* NAV STYLE */
@@ -209,6 +214,11 @@ footer{
     color: #ff5233 !important;
     background-color: #d1432a00 !important;
     font-weight: 900;
+}
+
+nav.navbar.navbar-expand-sm.navbar-dark {
+  background-color: #292929 !important;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 
