@@ -170,7 +170,6 @@ main {
   display: block;
   position: relative;
   z-index: 0; 
-  padding-top: 100px; 
 }
 
 footer{
@@ -178,6 +177,10 @@ footer{
     margin: auto;
     width: 50%;
     padding: 25px;
+}
+
+.footer-logo{
+  text-align: end;
 }
 
 .header_area {
@@ -240,13 +243,17 @@ nav.navbar.navbar-expand-sm.navbar-dark {
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
+    width: 100%;
+    height: 400px; 
   } 
 
 .caro_img1{
-    background-image: url("src/elongated1.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("src/elongated1.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
   }
   .caro_img2{
     background-image: url("src/elongated2.jpg");
