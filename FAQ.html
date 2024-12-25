@@ -13,24 +13,79 @@
   </head>
   <body>
     <div class="container"></div>
-    <header>
-      <div class="container">
-          <header class="header_area d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-              <img src="src/LOGO WHITE_1721043934.webp" width="200" height =auto>
-            </a>
-            <ul class="nav nav-pills d-flex align-items-center">
-              <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+    <header class="header_area d-flex flex-wrap justify-content-center py-3 mb-4 ">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="src/LOGO WHITE_1721043934.webp" width="200" height ="auto" alt="skBOMA Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav nav nav-pills d-flex align-items-center">
+              <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
               <li class="nav-item"><a href="index.html#About" class="nav-link">About</a></li>
               <li class="nav-item"><a href="index.html#Products" class="nav-link">Products</a></li>
               <li class="nav-item"><a href="Assembly.html" class="nav-link">Assembly</a></li>
-              <li class="nav-item"><a href="FAQ.html" class="nav-link active">FAQs</a></li>
+              <li class="nav-item"><a href="FAQ.html" class="nav-link">FAQs</a></li>
               <li class="nav-item"><a href="index.html#Contact" class="nav-link">Contact</a></li>
             </ul>
-          </header>
+          </div>
+      </nav>
+    </header>
+    <main class="main px-3">
+<!--Bootsrap5 Carousel-->
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-  </header>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img caro_img1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Glow Beyond Limits</h1>
+                <p class="opacity-75">Unleash the magic of fire, whether in your backyard or under the stars.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img caro_img2" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Radiance Redefined</h1>
+                <p>A masterpiece of design and warmth, crafted to elevate every moment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img caro_img3" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Where Flames Meet Friendship</h1>
+                <p>Gather, connect, and create stories around the heart of your outdoor space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
+      <div class="row container pb-5 px-5" id="About">
+        <h1 class="py-1 text-white">skBOMA Firepits.</h1>
+          <p class="text-white">At skBoma Firepits, we specialize in crafting durable, portable, and stylish fire solutions that enhance any space or adventure. Inspired by the essence of social gatherings and the beauty of the outdoors, our firepits are built with precision and care using high-quality carbon steel.</p>
+          <p class="text-white">Designed by Sebastian Kirkland, a renowned industrial designer and Co-founder of User Design International, these firepits reflect a perfect blend of innovation and craftsmanship. With over 25 years of expertise in design and manufacturing, Sebastian has collaborated with some of South Africa's leading interior and architectural design houses. His achievements include winning the 2010 Design Indaba Best Product Award and securing a major contract with SAB as a Creative Director for Point of Sale. Additionally, his designs have been internationally patented, showcasing his commitment to excellence and innovation.</p>        
+          <p class="text-white">This larger-than-most fire pit on the market has the unique ability to flat pack for mobility while still remaining aesthetically pure to form, making it ideal for camping, braais, or relaxing evenings under the stars. Whether you're creating warmth at home or on the go, skBOMA Firepits deliver functionality, durability, and timeless style to every occasion.</p>
+      </div>
   <main class="px-3">
     <div class="row px-5 ">
       <h1 class="py-5 text-white">Frequently Asked Questions.</h1>

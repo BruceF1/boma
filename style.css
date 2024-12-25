@@ -129,26 +129,26 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
-  color: #ffffff !important;
+  color: #F5F5F5 !important;
 }
 
 h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
-    color: #ffffff !important;
+    color: #F5F5F5 !important;
   }
 
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    color: #ffffff;
+    color: #F5F5F5;
   }
 
   li {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
-    color: #ffffff;
+    color: #F5F5F5;
   }
 
   a {
@@ -162,7 +162,7 @@ html {
 
 body {
     font-weight: 300;
-    background-color: #292929 !important;
+    background-color: #2D2D2D !important;
     margin: 0;
 }
 
@@ -189,13 +189,28 @@ footer{
     z-index: 100;
 }
 
+.bg-alt
+{
+  background-color:#3E3E3E;
+}
+
+.underlinered
+{  
+  border-bottom: #ff5233;
+  border-bottom-style: solid;
+}
+
+.textcenter{
+  text-align: center;
+}
+
 /* NAV STYLE */
 .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: #ffffff !important;
+    color: #F5F5F5 !important;
     text-decoration: none;
     background: 0 0;
     border: 0;
@@ -207,7 +222,7 @@ footer{
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: #d1432a8a !important;
+    color: #ff5233 !important;
     text-decoration: none;
     background: 0 0;
     border: 0;
@@ -220,7 +235,7 @@ footer{
 }
 
 nav.navbar.navbar-expand-sm.navbar-dark {
-  background-color: #292929 !important;
+  background-color: #2D2D2D !important;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
@@ -235,7 +250,7 @@ nav.navbar.navbar-expand-sm.navbar-dark {
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     padding: 20px;
-    background-color: #d1432a8a;
+    background-color: #ff52339a;
     bottom: 3rem;
     z-index: 10;
   }
